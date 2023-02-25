@@ -1,0 +1,195 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-y: hidden;
+    background-color: black;
+}
+
+.container{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    transform-style: preserve-3d;
+    transform: perspective(600px) rotate(0deg);
+}
+
+.container span{
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid white;
+    margin: 10px;
+    box-shadow: 0 0 10px white;
+    animation: span 40s ease-in-out infinite;
+}
+
+@keyframes span{
+    0%{
+        transform: rotate(0deg);
+        border-radius: 0;
+    }
+    20%{
+        box-shadow: 0 0 40px rgb(9, 238, 9);
+
+    }
+    50%{
+        transform: rotate(360deg);
+        background-color: black;
+        box-shadow: 0 0 40px rgb(18, 196, 219);
+    }
+    70%{
+        box-shadow: 0 0 40px rgb(235, 28, 28);
+    }
+    10%{
+        transform: rotate(0deg);
+    }
+    }
+    .container span:nth-child(1){
+        right:  0;
+        left:   0;
+        bottom: 0;
+        top:    0;
+        animation-delay: 0.5s;
+    }
+    .container span:nth-child(2){
+        right:  10px;
+        left:   10px;
+        bottom: 10px;
+        top:    10px;
+        animation-delay: 1s;
+    }
+    .container span:nth-child(3){
+        right:  20px;
+        left:   20px;
+        bottom: 20px;
+        top:    20px;
+        animation-delay: 1.5s;
+    }
+    .container span:nth-child(4){
+        right:  30px;
+        left:   30px;
+        bottom: 30px;
+        top:    30px;
+        animation-delay: 2.5s;
+    }
+    .container span:nth-child(5){
+        right:  40px;
+        left:   40px;
+        bottom: 40px;
+        top:    40px;
+        animation-delay: 3s;
+    }
+    .container span:nth-child(6){
+        right:  50px;
+        left:   50px;
+        bottom: 50px;
+        top:    50px;
+        animation-delay: 3.5s;
+    }
+    .container span:nth-child(7){
+        right:  60px;
+        left:   60px;
+        bottom: 60px;
+        top:    60px;
+        animation-delay: 4s;
+    }
+    .container span:nth-child(8){
+        right:  70px;
+        left:   70px;
+        bottom: 70px;
+        top:    70px;
+        animation-delay: 4.5s;
+    }
+    .container span:nth-child(9){
+        left:   80px;
+        bottom: 80px;
+        top:    80px;
+        right:  80px;
+        animation-delay: 5s;
+    }
+    .container span:nth-child(10){
+        right:  90px;
+        left:   90px;
+        bottom: 90px;
+        top:    90px;
+        animation-delay: 5.5s;
+    }
+    .container span:nth-child(11){
+        right:  100px;
+        left:   100px;
+        bottom: 100px;
+        top:    100px;
+        animation-delay: 6s;
+    }
+    .container span:nth-child(12){
+        right:  110px;
+        left:   110px;
+        bottom: 110px;
+        top:    110px;
+        animation-delay: 6.5s;
+    }
+    .container span:nth-child(13){
+        right:  120px;
+        left:   120px;
+        bottom: 120px;
+        top:    120px;
+        animation-delay: 7s;
+    }
+    .container span:nth-child(14){
+        right:  130px;
+        left:   130px;
+        bottom: 130px;
+        top:    130px;
+        animation-delay: 7.5s;
+    }
+    .container span:nth-child(15){
+        right:  140px;
+        left:   140px;
+        bottom: 140px;
+        top:    140px;
+        animation-delay: 8s;
+    }
+    .container span:nth-child(16){
+        right:  150px;
+        left:   150px;
+        bottom: 150px;
+        top:    150px;
+        animation-delay: 8.5s;
+    }
+    .container span:nth-child(17){
+        right:  160px;
+        left:   160px;
+        bottom: 160px;
+        top:    160px;
+        animation-delay: 9s;
+    }
+    .container span:nth-child(18){
+        right:  170px;
+        left:   170px;
+        bottom: 170px;
+        top:    170px;
+        animation-delay: 9.5s;
+    }
+    .container span:nth-child(19){
+        right:  180px;
+        left:   180px;
+        bottom: 180px;
+        top:    180px;
+        animation-delay: 10s;
+    }
+
+    .container span:nth-child(20){
+        right:  190px;
+        left:   190px;
+        bottom: 190px;
+        top:    190px;
+        animation-delay: 10.5s;
+    }
+  
+
+    
+
